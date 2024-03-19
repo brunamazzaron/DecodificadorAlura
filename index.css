@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f5fc;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+body {
+  background-color: #f3f5fc;
+}
+
+.img-fluid {
+  width: 8%;
+  margin-top: 40px;
+}
+
+.form-control {
+  background-color: #f3f5fc;
+  border: 0 none;
+  outline: none;
+}
+
+.teaxt-area {
+  border: none;
+  color: #0a3871;
+  margin-top: 90px;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: none;
+  width: 788px;
+  height: 738px;
+}
+
+.form-control::placeholder {
+  color: #0a3871;
+}
+
+.form-control:focus {
+  background-color: #f3f5fc;
+  border: 0 none;
+  color: #0a3871;
+  outline: none;
+}
+
+.botao-cripto {
+  background-color: #0a3871;
+  color: #fff;
+  width: 328px;
+  height: 67px;
+  cursor: pointer;
+  border-radius: 24px;
+  font-size: 16px;
+}
+
+.botao-descripto {
+  margin-left: 10px;
+  background-color: #d8dfe8;
+  border: 1px solid #0a3871;
+  color: #0a3871;
+  width: 328px;
+  height: 67px;
+  cursor: pointer;
+  border-radius: 24px;
+  font-size: 16px;
+}
+
+.botao-copiar {
+  border: 1px solid #0a3871;
+  background-color: #fff;
+  color: #0a3871;
+  width: 328px;
+  height: 67px;
+  cursor: pointer;
+  border-radius: 24px;
+  font-size: 16px;
+}
+
+.mensagem {
+  width: 400px;
+  height: 944px;
+  background-color: #fff;
+  border: none;
+  border-radius: 32px;
+  color: #0a3871;
+  text-align: center;
+}
+
+.mensagem-text-area {
+  background-color: #fff;
+  border: none;
+  border-radius: 32px;
+  color: #0a3871;
+}
+
+.botao-cripto:hover {
+  color: #fff;
+}
+
+.botao-descripto:hover {
+  color: #0a3871;
+}
+
+.mensagem-text-area:focus {
+  background-color: #fff;
+  border: none;
+}
+
+.imagem-sem-texto {
+  background-color: #fff;
+  margin-top: 68px;
+}
+
+.textarea.form-control {
+  border: none;
+}
+
+.mensagem:focus {
+  outline: none;
+}
+
+.icon-info {
+  width: 18px;
+}
+
+.informacao {
+  margin-top: 10px;
+  display: flex;
+  color: #0a3871;
+  font-size: 10px;
+}
+
+h6 {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.text {
+  background-color: #fff;
+  color: #0a3871;
+  font-size: 24px;
+  padding: 20px;
+  font-weight: 700;
+}
+
+.info-digite-texto {
+  background-color: #fff;
+  color: #0a3871;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .mensagem {
+    margin-left: -26px;
+    height: 150px;
+  }
+  .text,
+  .info-digite-texto {
+    visibility: hidden;
+  }
+  img {
+    display: none;
+  }
+  .botao-copiar {
+    margin-top: 10px;
+    margin-top: -544px;
+  }
+}
